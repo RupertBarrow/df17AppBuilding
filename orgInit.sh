@@ -1,4 +1,6 @@
 sfdx force:alias:list
+sfdx force:org:display
+
 sfdx shane:org:create -f config/project-scratch-def.json -s -d 1 --userprefix crash --userdomain course.org --loglevel=debug
 sfdx force:source:push
 sfdx force:user:permset:assign -n VolunteeringApp
